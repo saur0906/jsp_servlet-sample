@@ -9,12 +9,12 @@ import javax.persistence.PersistenceContext;
 @RequestScoped
 public class MyModel {
 
-    @PersistenceContext(unitName = "firstwebapp-pu")
+/*    @PersistenceContext(unitName = "firstwebapp-pu")
     private EntityManager em;
 
     public Object getValue() {
         Content content = em.find(Content.class, "001");
         return content.getValue();
     }
-
+*/
 }
